@@ -1,0 +1,170 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "pagi",
+          "siang",
+          "malam",
+          "selamat pagi",
+          "selamat siang",
+          "selamat malam"
+        ],
+        "responses": [
+          "Halo! Saya Bot PLN. Ada yang bisa saya bantu terkait listrik atau layanan PLN?",
+          "Hai! Selamat datang di layanan informasi PLN. Ada yang ingin Anda ketahui?"
+        ]
+      },
+      {
+        "tag": "penjelasan_pln",
+        "patterns": [
+          "Apa itu PLN?",
+          "Jelaskan tentang PLN"
+        ],
+        "responses": [
+          "PLN (Perusahaan Listrik Negara) adalah badan usaha milik negara yang mengelola penyediaan listrik di Indonesia. Tugas PLN mencakup pembangkit, transmisi, distribusi, serta penyediaan layanan listrik kepada masyarakat di seluruh Indonesia."
+        ]
+      },
+      {
+        "tag": "layanan_pln",
+        "patterns": [
+          "Layanan apa saja yang disediakan oleh PLN?",
+          "Apa saja layanan PLN?"
+        ],
+        "responses": [
+          "PLN menyediakan berbagai layanan, antara lain:\n1. **Layanan Sambungan Baru** (Pemasangan listrik baru)\n2. **Layanan Pembayaran Tagihan Listrik**\n3. **Layanan Gangguan Listrik**\n4. **Layanan Pengaduan dan Informasi**\n5. **Layanan Tarif Listrik**\n6. **Layanan Pelanggan**"
+        ]
+      },
+      {
+        "tag": "tagihan_listrik",
+        "patterns": [
+          "Bagaimana cara mengecek tagihan listrik?",
+          "Berapa tagihan listrik saya bulan ini?"
+        ],
+        "responses": [
+          "Untuk mengecek tagihan listrik, Anda bisa menggunakan aplikasi PLN Mobile, mengunjungi situs web PLN, atau melalui layanan SMS dan WhatsApp dengan nomor yang sudah disediakan oleh PLN. Anda juga bisa mengecek tagihan melalui loket pembayaran seperti minimarket atau agen pembayaran."
+        ]
+      },
+      {
+        "tag": "cara_bayar_tagihan",
+        "patterns": [
+          "Bagaimana cara membayar tagihan listrik?",
+          "Apa saja cara pembayaran tagihan listrik?"
+        ],
+        "responses": [
+          "Anda bisa membayar tagihan listrik melalui berbagai metode, seperti:\n1. **Pembayaran melalui Bank** (transfer atau auto-debit)\n2. **Aplikasi PLN Mobile**\n3. **Minimarket dan agen pembayaran** (Indomaret, Alfamart, dll.)\n4. **Pembayaran melalui Internet Banking atau Mobile Banking**\n5. **ATM atau e-wallet**"
+        ]
+      },
+      {
+        "tag": "sambungan_baru",
+        "patterns": [
+          "Bagaimana cara mendaftar untuk sambungan listrik baru?",
+          "Prosedur untuk pemasangan listrik baru seperti apa?"
+        ],
+        "responses": [
+          "Untuk pemasangan sambungan listrik baru, Anda dapat mengajukan permohonan melalui aplikasi PLN Mobile, situs resmi PLN, atau mengunjungi kantor PLN terdekat. Anda akan diminta untuk mengisi formulir, melampirkan fotokopi KTP, serta memberikan informasi mengenai lokasi dan jenis kebutuhan listrik yang diinginkan."
+        ]
+      },
+      {
+        "tag": "gangguan_listrik",
+        "patterns": [
+          "Apa yang harus dilakukan jika terjadi gangguan listrik?",
+          "Bagaimana cara melaporkan gangguan listrik?"
+        ],
+        "responses": [
+          "Jika terjadi gangguan listrik, Anda dapat melaporkannya melalui aplikasi PLN Mobile, menghubungi Call Center PLN di **123**, atau mengunjungi situs web PLN untuk pengaduan. Pastikan untuk memberikan informasi yang jelas mengenai lokasi dan jenis gangguan yang terjadi."
+        ]
+      },
+      {
+        "tag": "pengaduan_pln",
+        "patterns": [
+          "Bagaimana cara mengajukan pengaduan ke PLN?",
+          "Apakah ada nomor pengaduan PLN?"
+        ],
+        "responses": [
+          "Untuk mengajukan pengaduan atau keluhan terkait layanan PLN, Anda dapat menghubungi Call Center PLN di nomor **123**. Anda juga bisa menggunakan aplikasi PLN Mobile untuk mengirimkan pengaduan secara langsung. Jangan ragu untuk mengajukan keluhan melalui situs web resmi PLN."
+        ]
+      },
+      {
+        "tag": "tarif_listrik",
+        "patterns": [
+          "Berapa tarif listrik saat ini?",
+          "Bagaimana cara mengetahui tarif listrik?"
+        ],
+        "responses": [
+          "Tarif listrik di Indonesia bervariasi tergantung pada jenis pelanggan dan golongan tarif. Anda dapat mengecek tarif listrik yang berlaku untuk rumah tangga, bisnis, atau industri melalui situs web PLN atau aplikasi PLN Mobile. Tarif ini juga dapat berubah sesuai dengan kebijakan pemerintah."
+        ]
+      },
+      {
+        "tag": "meteran_listrik",
+        "patterns": [
+          "Bagaimana cara membaca meteran listrik?",
+          "Apa yang harus dilakukan jika meteran listrik tidak berfungsi?"
+        ],
+        "responses": [
+          "Untuk membaca meteran listrik, Anda perlu mencatat angka pada meteran setiap bulan. Jika meteran tidak berfungsi dengan baik, Anda bisa menghubungi PLN untuk perbaikan atau penggantian meteran melalui Call Center PLN di **123** atau aplikasi PLN Mobile."
+        ]
+      },
+      {
+        "tag": "pemutusan_listrik",
+        "patterns": [
+          "Bagaimana cara mengajukan pemutusan listrik?",
+          "Apa yang harus dilakukan untuk mematikan sambungan listrik?"
+        ],
+        "responses": [
+          "Jika Anda ingin memutuskan sambungan listrik, Anda bisa mengajukan permohonan melalui aplikasi PLN Mobile atau datang langsung ke kantor PLN terdekat. Pastikan Anda sudah menyelesaikan semua kewajiban pembayaran dan memenuhi persyaratan administratif yang diperlukan."
+        ]
+      },
+      {
+        "tag": "program_bantuan_pln",
+        "patterns": [
+          "Apakah ada program bantuan listrik untuk masyarakat?",
+          "Apa saja program bantuan yang diberikan PLN?"
+        ],
+        "responses": [
+          "PLN memiliki beberapa program bantuan, salah satunya adalah **Bantuan Listrik untuk Masyarakat Berpenghasilan Rendah (MBR)**. Program ini memberikan subsidi atau potongan harga untuk pelanggan yang memenuhi kriteria tertentu. Anda bisa mengajukan permohonan melalui PLN atau pihak terkait."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Terima kasih",
+          "Makasih",
+          "Dadah",
+          "Sampai jumpa",
+          "Goodbye"
+        ],
+        "responses": [
+          "Sama-sama, semoga informasi ini bermanfaat!",
+          "Terima kasih! Jika ada pertanyaan lagi, saya siap membantu.",
+          "Semoga informasi ini membantu! Jangan ragu untuk bertanya lagi."
+        ]
+      },
+      {
+        "tag": "siapa_penciptamu",
+        "patterns": [
+          "Siapa penciptamu?",
+          "Siapa yang membuatmu?"
+        ],
+        "responses": [
+          "Saya adalah hasil pengembangan oleh tim OpenAI, sebuah organisasi yang berfokus pada riset kecerdasan buatan."
+        ]
+      },
+      {
+        "tag": "kenapa_kamu_diciptakan",
+        "patterns": [
+          "Kenapa kamu diciptakan?",
+          "Apa tujuanmu diciptakan?"
+        ],
+        "responses": [
+          "Saya diciptakan untuk membantu memberikan informasi dan solusi dalam berbagai hal, seperti menjawab pertanyaan atau membantu dalam pengolahan data."
+        ]
+      }
+    ]
+  }
+  
